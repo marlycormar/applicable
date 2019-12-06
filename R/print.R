@@ -1,6 +1,6 @@
 #' @export
 print.apd_pca <- function(x, ...) {
-  predictors_count <- ncol(x$blueprint$ptypes$predictors)
+  predictors_count <- ncol(x$pcs$rotation)
   percentage <- x$threshold * 100
   num_comp <- x$num_comp
   wording <- "components were"
