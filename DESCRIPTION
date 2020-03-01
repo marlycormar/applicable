@@ -30,7 +30,7 @@ Imports:
     tidyselect,
     tidyr
 Suggests: 
-    recipes (>= 0.1.7),
+    recipes (>= 0.1.8),
     testthat (>= 2.1.0),
     knitr,
     rmarkdown,
